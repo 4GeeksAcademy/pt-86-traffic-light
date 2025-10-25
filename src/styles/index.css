@@ -1,11 +1,39 @@
-/* 
+.light{
+    background-image: url("https://st4.depositphotos.com/1052079/19918/v/450/depositphotos_199188090-stock-illustration-view-road-car-interior-vector.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    height:350px;
+    width:150px;
+    margin-right:5%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.red{
+    border-radius:50%;
+    background:red;
+    height:100px;
+    width:100px;
+    margin-bottom:15px;
 
-*/
+}
+.yellow{
+    border-radius:50%;
+    background:yellow;
+    height:100px;
+    width:100px;
+    margin-bottom:15px;
+}
+.green{
+    border-radius:50%;
+    background:green;
+    height:100px;
+    width:100px;
+    margin-bottom:15px;
+}
